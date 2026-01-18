@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/12Ymvbp0tvji2_M0uh9acTu6p34M9WqYb
 """
 
-!pip install streamlit
+
 
 from google.colab import drive
 drive.mount('/content/drive')
