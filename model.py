@@ -25,7 +25,7 @@ st.set_page_config(page_title='Gearbox failure Classification', layout="centered
 st.title('Gearbox failure Classification App')
 st.write("Predict the Faiure rate")
 
-Load_%	= st.number_input("Value of Load_%", value=None)
+Load_%= st.number_input("Value of Load_%", value=None)
 Temperature_C = st.number_input("Value of Temperature_C,", value=None)
 Vibration_mm_s	= st.number_input("Value of Vibration_mm_s,", value=None)
 Oil_Level_% = st.number_input("Value of Oil_Level_%,", value=None)
