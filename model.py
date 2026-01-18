@@ -26,9 +26,9 @@ st.title('Gearbox failure Classification App')
 st.write("Predict the Faiure rate")
 
 Load_%= st.number_input("Value of Load_%", value=None)
-Temperature_C = st.number_input("Value of Temperature_C,", value=None)
-Vibration_mm_s	= st.number_input("Value of Vibration_mm_s,", value=None)
-Oil_Level_% = st.number_input("Value of Oil_Level_%,", value=None)
+Temperature_C= st.number_input("Value of Temperature_C,", value=None)
+Vibration_mm_s= st.number_input("Value of Vibration_mm_s,", value=None)
+Oil_Level_%= st.number_input("Value of Oil_Level_%,", value=None)
 
 
 if st.button('Predict'):
